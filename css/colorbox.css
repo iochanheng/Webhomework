@@ -65,7 +65,7 @@ outline:0;
 }
 
 #cboxContent{
-background:#ffffff;
+background:rgb(32, 32, 32);
 overflow:hidden;
 border-radius:10px;
 padding:25px;
@@ -113,16 +113,32 @@ text-indent:-9999px;
 
 #cboxNext:hover{background-position:-50px -25px;}
 
-#cboxClose{
-position:absolute;
-top:0;
-right:0;
-background:url(../images/controls.png) no-repeat -25px 0;
-width:25px;
-height:25px;
+
+
+
+
+#cboxClose{position:absolute;
+top:0px; 
+right:5px;
+display:block;
+background:url(../images/controls.png) no-repeat top center;
+width:38px;
+height:19px;
 text-indent:-9999px;
 }
 
 #cboxClose:hover{
-background-position:-25px -25px;
+background-position:bottom center;
 }
+
+ #cboxPrevious{
+position:absolute;
+top:50%;
+left:5px;
+margin-top:-32px;
+background:url(../images/controls.png) no-repeat top left;
+width:28px;
+height:65px;
+text-indent:-9999px;
+}
+
